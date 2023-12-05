@@ -1,0 +1,115 @@
+body{
+    background-image: linear-gradient(to right, palevioletred, darkorchid);
+    background-color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 70px;
+    position: relative;
+    left: 2%;
+}
+
+a{
+    background: pink;
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 7px purple;
+    transform: .15s linear;
+    position: absolute;
+    left: 85%;
+    top: 25%;
+    font-size: large;
+}
+
+a
+{
+    transform: rotate(-6deg);
+}
+
+a{
+    position: absolute;
+    top: 30px;
+    transform: rotate(6deg);
+}
+
+a:hover,a:focus
+{
+    position: absolute;
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+.hover1{
+    position: absolute;
+    left: 85%;
+    top: 190%;
+}
+
+.div{
+    border-radius: 20px;
+    border-color: antiquewhite;
+    background-color: violet;
+    border-style: dotted;
+    position: absolute;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+    left: 50%;
+}
+
+.img1{
+    width: 50%;
+    position: relative;
+    top: 50%;
+}
+
+.div2{
+    border-radius: 20px;
+    border-color: antiquewhite;
+    background-color: plum;
+    border-style: dotted;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.div3{
+    border-radius: 20px;
+    border-color: antiquewhite;
+    background-color: rgb(194, 115, 194);
+    border-style: dotted;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.img2{
+    width: 35%;
+    margin-top: 200px;
+    margin-left: 80px;
+    animation: fallY 5s infinite; /* Adjust the timing as needed */
+}
+
+@keyframes fallY{
+    0% {
+        transform: translateY(-150px); /* Starting position */
+    }
+    100% {
+        transform: translateY(250px); /* Return to start */
+    }
+}

@@ -1,0 +1,140 @@
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat
+}
+
+.div1{
+    background-color: black;
+    border-style: groove;
+    border-color: lightsalmon;
+    margin: 25px;
+    padding: 25px;
+    width: 45%;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    text-align: left;
+    animation: color-change1 5s infinite;
+}
+
+@keyframes color-change1 {
+    0%{color: white;}
+    50% { color: wheat; }
+    10%{color: white;}
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 150%;
+    padding: 20px;
+}
+
+#Main{
+    color: antiquewhite;
+}
+
+a{
+    background: black;
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transform: .15s linear;ß
+}
+
+a
+{
+    transform: rotate:(-6deg);
+}
+
+a{
+    position: absolute;
+    top: 40px;
+    left: 85%;
+    transform: rotate(6deg);
+}
+
+a:hover,a:focus
+{
+    position: absolute;
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+a:hover{
+    color: darksalmon;
+    letter-spacing: 10px;
+    font-size: large;
+}
+
+.hover1{
+    color: antiquewhite;
+    position: absolute;
+    left: 85%;
+    top: 230%;
+}
+
+h1{
+    font-size: 55px;
+    animation: color-change 3s infinite;
+    text-transform: uppercase;
+}
+
+@keyframes color-change {
+    0% { color: wheat; }
+    50% { color: black}
+    100%{color: blanchedalmond;}
+}
+
+.img1{
+    width: 60%;
+}
+
+.img2{
+    position: absolute;
+    top: 160%;
+    left: 2.5%;
+}
+
+.div2{
+    margin: 25px;
+    padding: 25px;
+    width: 45%;
+    position: absolute;
+    top: 170%;
+    left: 49%;
+    color: black;
+    opacity: 50%;
+}
+
+.div2:hover{
+    display: block;
+    opacity: 100%;
+}
+
+.div3{
+    width: 45%;
+    color: black;
+    position: absolute;
+    top: 113.5%;
+    left: 10px;
+    opacity: 50%;
+}
+
+.div3:hover{
+    display: block;
+    opacity: 100%;
+}
+
+.div4{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 245%;
+}

@@ -1,0 +1,178 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+a{
+    background: plum;
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transform: .15s linear;
+}
+
+a
+{
+    transform: rotate(-6deg);
+}
+
+a{
+    position: absolute;
+    top: 40px;
+    left: 85%;
+    transform: rotate(6deg);
+}
+
+a:hover,a:focus
+{
+    position: absolute;
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+a:hover{
+    color: darksalmon;
+    letter-spacing: 10px;
+    font-size: large;
+}
+
+.hover1{
+    color: antiquewhite;
+    position: absolute;
+    left: 85%;
+    top: 230%;
+}
+
+h1{
+    font-size: 80px;
+    color: purple;
+    text-transform: uppercase;
+    animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+    0% { color: purple; }
+    50% { color: plum; }
+    100% { color: violet; }
+}
+
+.div1{
+    background-color: rgb(159, 113, 159);;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: lightsalmon;
+    margin: 25px;
+    padding: 25px;
+    width: 25%;    
+    position: absolute;
+    left: 10%;
+    animation: color-change1 10s infinite;
+}
+
+@keyframes color-change1 {
+    0% { color: purple; }
+    50% { color: white; }
+    100%{color: blueviolet;}
+}
+
+.img1{
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 150%;
+    background-color: rgb(207, 163, 207);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.divp{
+    background-color: rgb(159, 113, 159);;
+    border-style: solid 100px;
+    border-color: lightsalmon;
+    padding: 25px;
+    width: 30%;
+    height: 60%;    
+    position: absolute;
+    top: 140%;
+    left: 45%;
+}
+
+.divc{
+    background-color: purple;
+    width: 200px;
+    height: 80px;
+    position: relative;
+    display: flex; 
+    flex-direction: column-reverse;
+    z-index: 1;
+    opacity: 70%;
+    top: -17.5%;
+    left: 23%;
+    padding: 10px;
+}
+
+.img2{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 10%;
+}
+
+.img2:hover{
+    position: absolute;
+    display: block;
+    opacity: 100%;
+
+}
+
+.div2{
+    background-color: rgb(159, 113, 159);;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: lightsalmon;
+    margin: 25px;
+    padding: 25px;
+    width: 25%;
+    position: absolute;
+    left: 10%;
+    top: 142.5%;
+    animation: color-change1 10s infinite;
+}
+
+@keyframes color-change1 {
+    0% { color: purple; }
+    50% { color: white; }
+    100%{color: blueviolet;}
+}
+
+.hover1{
+    position: absolute;
+    left: 85%;
+    top: 215%;
+}
+
+.div3{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 230%;
+}
+

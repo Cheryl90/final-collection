@@ -1,0 +1,108 @@
+body{
+    background-image: url('../img/Free-Desktop-Wallpaper-April.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+}
+
+a:hover{
+    color: cornflowerblue;
+    letter-spacing: 10px;
+    font-size: large;
+}
+
+h1{
+    position: absolute;
+    font-size: 65px;
+    top: -35px;
+    left: 20px;
+}
+
+.div1{
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: whitesmoke;
+    background-color: aliceblue;
+    position: absolute;
+    size: 25%;
+    width: 30%;
+    top: 40%;
+    left: 67.5%;
+}
+
+.div2{
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: whitesmoke;
+    position: absolute;
+    size: 25%;
+    width: 30%;
+    padding: 10px;
+    top: 50%;
+    left: 2%;
+}
+
+a{
+    background: cornflowerblue;
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding: 16px;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transform: .15s linear;
+}
+
+a
+{
+    transform: rotate(-6deg);
+}
+
+a{
+    position: absolute;
+    top: 30px;
+    transform: rotate(6deg);
+}
+
+a:hover,a:focus
+{
+    position: absolute;
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 150%;
+    padding: 20px;
+}
+
+.list-container{
+    background-color: mistyrose;
+}
+
+#Main{
+    color: antiquewhite;
+    position: absolute;
+    left: 85%;
+    top: 5%;
+}
+
+ul{
+    color: lightsalmon;
+}
+
+.hover{
+    position: absolute;
+    top: 50%;
+}
+
+.hover1{
+    color: antiquewhite;
+    position: absolute;
+    left: 70%;
+}

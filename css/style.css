@@ -1,0 +1,184 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: darksalmon;
+}
+
+h1{
+    font-size: 100px;
+    color: rgb(112, 47, 24);
+    font-style: oblique;
+    font-variant: small-caps;
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+body{
+    background-image: url('../img/bg.jpg');
+    background-repeat: repeat;
+    background-size: 100%;
+    background-color: #ffefd5;
+}
+
+a:hover{
+    color: cornflowerblue;
+    letter-spacing: 10px;
+    font-size: large;
+}
+
+hr{
+    color: lightsalmon;
+}
+
+div{
+    border-radius: 10px;
+    border-color: lightsalmon;
+    border-style: none;
+    margin: 25px;
+    padding: 25px;
+    font-size: large;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 150%;
+    background-color: wheat;
+    padding: 20px;
+}
+
+.list-container{
+    background-color: mistyrose;
+}
+
+#Spring{
+    color: olivedrab;
+}
+
+#Summer{
+    color: cornflowerblue;
+}
+
+#Autumn{
+    color: peru;
+}
+
+#Winter{
+    color: cornsilk;
+}
+
+#Main{
+    color: antiquewhite;
+}
+
+ol{
+    color: lightsalmon;
+}
+
+.spring-div{
+    background-color: rgb(181, 222, 98);
+    width: 10%;
+    height: 10%;
+}
+
+.summer-div{
+    background-color: rgb(159, 192, 254);
+    width: 9%;
+    height: 11.5%;
+    position: absolute;
+    top: 67.5%;
+    left: 28%;
+}
+
+.autumn-div{
+    background-color: rgb(240, 177, 113);
+    width: 9%;
+    height: 11.5%;
+    position: absolute;
+    top: 67.5%;
+    left: 52.5%;
+}
+
+.winter-div{
+    background-color: rgb(231, 222, 185);
+    width: 9%;
+    height: 11.5%;
+    position: absolute;
+    top: 67.5%;
+    left: 75%;
+}
+
+a:visited{
+    color: pink;
+}
+
+.hover-link img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    display: block;
+    border-radius: 10px;
+    width: 30%; /* Adjust as needed */
+}
+
+.hover-link:hover img {
+    opacity: 0.8; /* Image becomes slightly transparent on hover */
+    transform: scale(1.05); /* Image grows slightly on hover */
+}
+
+.image-link img {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: block;
+    /* width: 50%;  */
+    border-radius: 50%; /* This creates the round shape */
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover; /* Adjust as necessary */
+    margin-top: 20px; /* Moves the image 20px down from the top */
+    margin-left: 900px;
+
+}
+
+.image-link:hover img {
+    opacity: 0.8; /* Image becomes slightly transparent on hover */
+    transform: scale(1.05); /* Image grows slightly on hover */
+}
+
+.image-link1 img {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: block;
+    margin: 10px;
+    width: 20%; /* Adjust as necessary */
+    transform: rotate(-90deg);
+    margin-top: -10px;
+}
+
+.image-link1:hover img {
+    opacity: 0.8; /* Image becomes slightly transparent on hover */
+    transform: scale(1.05); /* Image grows slightly on hover */
+}
+
+.image-link2 img {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: block;
+    margin: 10px;
+    width: 30%; /* Adjust as necessary */
+    margin-left: 800px;
+}
+
+.image-link2:hover img {
+    opacity: 0.8; /* Image becomes slightly transparent on hover */
+    transform: scale(1.05); /* Image grows slightly on hover */
+}
+
+@media (max-width: 768px) {
+    .image-link{
+        display: block;
+        margin-left: -600px;
+        height: 10px;
+        width: 10px;
+    }
+    .image-link2{
+        margin-left: -1000px;
+    }
+}

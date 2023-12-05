@@ -1,0 +1,125 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+    0% { color: cornflowerblue; }
+    50% { color: skyblue; }
+    100% { color: cornflowerblue; }
+  }
+
+.div1{
+    position: absolute;
+    left: 25%;
+    opacity: 10%;
+}
+.div1:hover{
+    position: absolute;
+    left: 25%;
+    display: block;
+    opacity: 100%;
+}
+
+.div2{
+    background-color: cornflowerblue;
+    position: absolute;
+    margin: 20px;
+    padding: 20px;
+    left: 25%;
+    top: 125%;
+    width: 40%;
+    color: aliceblue;
+    border-color: blue;
+    border-radius: 10px;
+    border: 10px;
+}
+
+.div3{
+    position: absolute;
+    top: 160%;
+    left: 27%;
+    opacity: 30%;
+}
+.div3:hover{
+    display: block;
+    opacity: 100%;
+}
+
+.div4{
+    background-color: cornflowerblue;
+    position: absolute;
+    margin: 20px;
+    padding: 20px;
+    left: 25%;
+    top: 240%;
+    width: 40%;
+    color: aliceblue;
+    border-color: blue;
+    border-radius: 10px;
+    border: 10px;
+}
+
+a{
+    background: cornflowerblue;
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 7px skyblue;
+    transform: .15s linear;
+    position: absolute;
+    left: 85%;
+    top: 25%;
+    font-size: large;
+}
+
+a
+{
+    transform: rotate(-6deg);
+}
+
+a{
+    position: absolute;
+    top: 30px;
+    transform: rotate(6deg);
+}
+
+a:hover,a:focus
+{
+    position: absolute;
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+.hover1{
+    position: absolute;
+    left: 85%;
+    top: 290%;
+}
+
+.falling-image {
+    width: 100px; /* or any size you prefer */
+    height: auto;
+    animation: fallX 5s infinite; /* Adjust the timing as needed */
+}
+
+@keyframes fallX {
+    0% {
+        transform: translateX(0); /* Starting position */
+    }
+    50% {
+        transform: translateX(1000px); /* Move right */
+    }
+    100% {
+        transform: translateX(0); /* Return to start */
+    }
+}

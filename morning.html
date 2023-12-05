@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning</title>
+    <link rel="stylesheet" href="css/morning.css">
+</head>
+<body>
+    <h1>Flowers blooming in Morning</h1>
+
+    <div class="div1">
+        <h2>Morning Glory</h2>
+        <p>Morning Glory, belonging to the Ipomoea genus, is a group of flowering plants renowned for their enchanting blooms and rapid growth. This versatile and diverse species is part of the Convolvulaceae family, encompassing over a thousand species. Among the most popular varieties are the Ipomoea purpurea, commonly known as the common morning glory, and Ipomoea tricolor, the heavenly blue morning glory.</p>
+    </div>
+
+    <img class="img1" src="img/mglory.jpg" alt="1">
+    <a id="Main" href="index.html">Main Page</a>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning Glory: Beauty in Bloom</title>
+    <link rel="stylesheet" href="css/morning.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script defer src="jvs/morning.js"></script>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <h1>Morning Glories</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#biology">Biology</a></li>
+                <li><a href="#blooming-time">Blooming Time</a></li>
+                <li><a href="#symbolic-meaning">Symbolic Meaning</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="biology">
+        <h2>Biology of Morning Glories</h2>
+        <p>Morning Glory, belonging to the Ipomoea genus, is a group of flowering plants renowned for their enchanting blooms and rapid growth. This versatile and diverse species is part of the Convolvulaceae family, encompassing over a thousand species. Among the most popular varieties are the Ipomoea purpurea, commonly known as the common morning glory, and Ipomoea tricolor, the heavenly blue morning glory.</p>
+        <img src="img/mglory.jpg" alt="1">
+    </section>
+
+    <section id="blooming-time">
+        <h2>Blooming Time</h2>
+        <p>The classic flower color for morning glories is bright blue but they also can be found in white, pink, red, purple, and even bi-colored. Their trumpet-shaped flowers open in the morning and close after just a few hours. The hotter and sunnier the day, the quicker they close.</p>
+        <!-- <img src="img/mtime.png" alt="2"> -->
+        <div class="calendar">
+            <span class="month" onmouseover="showInfo('May')">May</span>
+            <span class="month" onmouseover="showInfo('June')">June</span>
+            <span class="month" onmouseover="showInfo('July')">July</span>
+            <span class="month" onmouseover="showInfo('August')">August</span>
+            <span class="month" onmouseover="showInfo('September')">September</span>
+        </div>
+        <div id="month-info"></div>
+    </section>
+
+    <section id="symbolic-meaning">
+        <h2>Symbolic Meaning</h2>
+        <p>In many cultures, morning glory is associated with love, affection, and spiritual enlightenment. Its delicate blooms represent the fleeting nature of beauty and remind us to embrace each day with gratitude.</p>
+        <img src="img/mg2.jpg" alt="3">
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="image-gallery">
+            <img src="img/jap.jpg" alt="Ipomoea nil" class="gallery-img" onmouseover="displayInfo('img1')">
+            <img src="img/Sweet_potato_flower.jpg" alt="Morning Glory 2" class="gallery-img" onmouseover="displayInfo('img2')">
+            <!-- more images -->
+        </div>
+        <div id="image-info"></div>
+    </section>
+
+    <footer>
+        <p>© 2023 Morning Glory</p>
+    </footer>
+</body>
+</html>

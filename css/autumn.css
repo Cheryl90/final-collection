@@ -1,0 +1,148 @@
+body{
+    background-image: url('../img/14c658a3516122c41e5ef02b8868ac51.jpg');
+    background-size: cover; /* Ensures the background covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* This can be adjusted based on your requirement */
+    width: 100%;
+    background-color: peru;
+    font-family: 'Times New Roman', Times, serif;
+    color: peru
+}
+
+a{
+    background: antiquewhite;
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding: 16px;
+    text-decoration: none;
+    color: peru;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transform: .15s linear;
+}
+
+a
+{
+    transform: rotate(-6deg);
+}
+
+a{
+    position: absolute;
+    top: 40px;
+    left: 85%;
+    transform: rotate(6deg);
+}
+
+a:hover,a:focus
+{
+    position: absolute;
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+a:hover{
+    color: darksalmon;
+    letter-spacing: 10px;
+    font-size: large;
+}
+
+.hover1{
+    position: absolute;
+    left: 85%;
+    top: 230%;
+}
+
+h1{
+    font-size: 80px;
+    color: antiquewhite;
+}
+
+.div1{
+    background-color: peru;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: lightsalmon;
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+    position: absolute;
+    left: 40%;
+    top: 38%;
+}
+
+h2{
+    color: antiquewhite;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 150%;
+    background-color: wheat;
+    padding: 20px;
+}
+
+.img1{
+    width: 40%;
+    position: absolute;
+    left: 3%;
+}
+
+.img1:hover{
+    transform: scale(1.1);
+}
+
+.img2{
+    position: absolute;
+    left: 58%;
+    top: 125%;
+    height: 600px;
+}
+
+.img2:hover{
+    transform: rotate(-6deg);
+}
+
+.div2{
+    background-color: peru;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: lightsalmon;
+    margin: 25px;
+    padding: 25px;
+    width: 30%;
+    position: absolute;
+    top: 140%;
+}
+
+.div3{
+    background-color: peru;
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    top: 170%;
+    left: 35%;
+    display: flex; 
+    flex-direction: column-reverse;
+    z-index: 1;
+    opacity: 70%;
+}
+
+.div4{
+    background-color: peru;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 245%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: peru;
+    color: white;
+    position: absolute;
+    top: 260%;
+    left: 0px;
+    width: 100%;
+}

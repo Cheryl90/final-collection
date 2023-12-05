@@ -1,0 +1,212 @@
+/* body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: greenyellow
+}
+
+h1{
+    font-size: 55px;
+    animation: color-change 3s infinite;
+    text-transform: uppercase;
+}
+
+@keyframes color-change {
+    0% { color: blanchedalmond; }
+    50%{color: sandybrown;}
+    100% { color: blanchedalmond; }
+}
+
+a{
+    background:sandybrown;
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transform: .15s linear;
+}
+
+a
+{
+    transform: rotate(-6deg);
+}
+
+a{
+    position: absolute;
+    top: 40px;
+    left: 85%;
+    transform: rotate(6deg);
+}
+
+a:hover,a:focus
+{
+    position: absolute;
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+.div1{
+    background-color:blanchedalmond;
+    color: sandybrown;
+    margin: 20px;
+    padding: 20px;
+    width: 25%;
+    position: absolute;
+}
+
+.img1{
+    position: absolute;
+    left: 30%;
+} */
+
+body {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(141, 58, 249);
+}
+
+header {
+    background: url('../img/morning\ glory.gif') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+nav {
+    background-color: rgb(70, 10, 149);
+    padding: 10px 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+section {
+    margin: 30px 10%;
+    padding: 20px;
+    background-color: rgb(72, 5, 161);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+}
+
+section img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:  rgb(70, 10, 149);;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Consistent color scheme */
+:root {
+    --primary-color: #5679C3; /* A shade similar to Morning Glory flowers */
+    --secondary-color: #E3E4FA;
+    --text-color: #333333;
+}
+
+h1{
+    font-size: 55px;
+}
+
+
+/* Typography */
+h1, h2, h3, h4 {
+    font-family: 'Heading Font Name', sans-serif;
+    color: var(--primary-color);
+}
+
+p, li, a {
+    font-family: 'Body Font Name', serif;
+    color: var(--text-color);
+}
+
+/* Styling */
+section {
+    background-color: var(--secondary-color);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px; 
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Consistent layout */
+section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.month {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.month:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#month-info {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    z-index: 5;
+}
+
+.gallery-img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+}

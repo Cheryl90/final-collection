@@ -1,0 +1,150 @@
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat
+}
+
+h1{
+    font-size: 55px;
+    animation: color-change 3s infinite;
+    text-transform: uppercase;
+}
+
+@keyframes color-change {
+    0% { color: wheat; }
+    50%{color: blanchedalmond;}
+    100% { color: wheat; }
+}
+
+.div1{
+    color: rgb(248, 197, 104);
+    margin: 25px;
+    padding: 25px;
+    width: 30%;
+    top: 210px;
+    position: absolute;
+    left: -30px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 150%;
+    padding: 20px;
+}
+
+#Main{
+    color: antiquewhite;
+}
+
+a{
+    background: wheat;
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transform: .15s linear;
+}
+
+a
+{
+    transform: rotate(-6deg);
+}
+
+a{
+    position: absolute;
+    top: 40px;
+    left: 85%;
+    transform: rotate(6deg);
+}
+
+a:hover,a:focus
+{
+    position: absolute;
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+a:hover{
+    color: darksalmon;
+    letter-spacing: 10px;
+    font-size: large;
+}
+
+.hover1{
+    color: antiquewhite;
+    position: absolute;
+    left: 85%;
+    top: 230%;
+}
+
+.img1{
+    position: absolute;
+    left: 30%;
+    z-index: -1;
+    width: 35%;
+}
+
+.img2{
+    position: absolute;
+    left: 70%;
+    top: 190px;
+    z-index: -5;
+    width: 25%;
+}
+
+.div2{
+    background-color: black;
+    color: rgb(249, 206, 126);
+    margin: 25px;
+    padding: 25px;
+    width: 30%;
+    position: absolute;
+    top: 160%;
+    left: 60%;
+}
+
+.img3{
+    width: 35%;
+    position: absolute;
+    top: 118.25%;
+    left: 27%;
+}
+
+.div3{
+    color: rgb(249, 206, 126);
+    margin: 25px;
+    padding: 25px;
+    width: 20%;
+    position: absolute;
+    top: 105%;
+    left: -30px;
+}
+
+.div4{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200%;
+}
+
+.button{
+    border: solid 2px wheat;
+    background-color: wheat;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: wheat;
+    color: white;
+    position: absolute;
+    top: 220%;
+    left: 0px;
+    width: 100%;
+}
